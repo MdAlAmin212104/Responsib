@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+	font-weight: bold;
+}
+.head{
+	background-color: orange;
+	color: green;
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+}
+.navber-menu{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #11999e;
+	padding: 10px;
+}
+.navber-menu a{
+	text-decoration: none;
+	font-size: 25px;
+	padding: 10px 0;
+	color: white;
+	background-color: grey;
+	margin: 10px 0;
+	border-radius: 30px;
+}
+.navber-menu a:hover{
+	background-color: aqua;
+	color: black;
+}
+.main h1{
+	text-align: center;
+	color: white;
+
+}
+.main{
+	background-color: #5f4886;
+	padding: 10px;
+}
+.aside{
+	text-align: center;
+	background-color: #11999e;
+	padding: 10px;
+
+}
+.aside h1{
+	color: white;
+}
+
+.end{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+}
+@media screen and (min-width: 768px){
+
+
+	/* coloum for destop */
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+
+	.row{
+		display: flex;
+	}
+
+
+
+
+
+}
